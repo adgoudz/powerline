@@ -1,0 +1,21 @@
+{
+    "default_module": "powerline.segments.vim.plugin.tagbar",
+    "segments": {
+        "right": [
+            {
+                "type": "string",
+                "highlight_groups": ["background"],
+                "draw_soft_divider": false,
+                "draw_hard_divider": false,
+                "width": "auto"
+            }
+        ],
+        "left": [
+            {
+                "type": "string",
+                "contents": "Tags",
+                "highlight_groups": ["tagbar"]
+            }
+        ]
+    }
+}
